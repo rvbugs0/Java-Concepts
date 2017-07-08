@@ -3,7 +3,7 @@
 <b>Creating Generic Classes In Java</b>
 <hr>
 
-<code>
+```
 public class GList<T>
 {
 	private T[] myList;
@@ -17,4 +17,4 @@ public class GList<T>
 	}
 
 }
-</code>
+```
