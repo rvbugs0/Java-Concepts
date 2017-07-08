@@ -21,6 +21,35 @@ public class GList<T>
 
 <br/>
 
+
+<b>Creating Generic Classes with multiple types</b>
+<hr>
+
+```
+
+public class Pair<T,U>
+{
+	private T first;
+	private U second;
+	public Pair(T first,U second)
+	{	
+		this.first= first;
+		this.second= second;
+	}
+	
+	public T first()
+	{
+		return first;
+	}
+	public U second()
+	{
+		return second;
+	}
+}
+
+```
+
+<br/>
 <b>Creating generic method inside non generic class</b>
 <hr>
 
