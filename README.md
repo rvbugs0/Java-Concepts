@@ -23,6 +23,7 @@ public class GList<T>
 
 <b>Creating generic method inside non generic class</b>
 <hr>
+
 ```
 class GenericMethod
 {
@@ -42,4 +43,3 @@ class GenericMethod
 }
 
 ```
-
