@@ -18,3 +18,28 @@ public class GList<T>
 
 }
 ```
+
+<br/>
+
+<b>Creating generic method inside non generic class</b>
+<hr>
+```
+class GenericMethod
+{
+	static <T> void Display(T[] arr)
+	{	
+		for(int i=0;i<arr.length;i++)
+		{
+			if(arr[i]!=null) System.out.print(arr[i]+" ");
+		}
+	}
+
+	public static void main(String args[])
+	{
+		Integer ar[] = new Integer[]{0,1,2,3,4,5};
+		Display(ar);
+	}
+}
+
+```
+
